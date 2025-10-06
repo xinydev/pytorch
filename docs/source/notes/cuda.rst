@@ -480,6 +480,9 @@ be freed so it can not increase the amount of GPU memory available for PyTorch.
 To better understand how CUDA memory is being used over time,
 :ref:`torch_cuda_memory` describes tools for capturing and visualizing traces of memory use.
 
+For a comprehensive guide on CUDA memory management including allocation mechanisms
+during training and inference, see :doc:`cuda_memory_management`.
+
 For more advanced users, we offer more comprehensive memory benchmarking via
 :meth:`~torch.cuda.memory_stats`. We also offer the capability to capture a
 complete snapshot of the memory allocator state via
